@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/134ae673d2.js" crossorigin="anonymous"></script>
+    <title>Multi</title>
+    <link rel="stylesheet" href="Css_Project_B/Style_project.css">
+    <!-- links bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- link fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Open+Sans:wght@300;400&family=Poppins:wght@600;700&family=Raleway:wght@600;700;800&display=swap" rel="stylesheet">
+    <!-- link icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body class="body">
+    <!-- start nav -->
+    <nav class=" fixed-top bg-white ">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class="nav-link fs-3 text_navyblue font-Raleway py-3 fw-bold" href="#">MULTI</a>
+            
+            <!-- list nav -->
+            <div class="d-none d-lg-flex">
+                <ul class="nav">
+                    <li class="nav-item"><a href="#" class="nav-link text_orange">home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-black link_orange">about</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-black link_orange">services</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-black link_orange">portfolio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-black link_orange">team</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-black link-danger" href="#" role="button"
+                            data-bs-toggle="dropdown">Dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link text-black link-danger">catact</a></li>
+                    <li class="nav-item"><a href="#" class="MY_BUTTON btn bg_orange px-3 mx-2 ">get started</a></li>
+                </ul>
+            </div>
+
+            <!-- offcanvas -->
+            <div class="d-lg-none">
+                <div class="offcanvas offcanvas-end " id="demo_offcanvas">
+                    <div class="offcanvas-header d-flex justify-content-end ">
+                        <button type="button" class="btn-close box_shadow_none " data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body  mx-1 ">
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a href="#" class="nav-link text_orange">home</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-black link_orange">about</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-black link_orange">services</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-black link_orange">portfolio</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-black link_orange">team</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-black link-danger" href="#" role="button"
+                                    data-bs-toggle="dropdown">Dropdown</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                                    <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                                    <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a href="#" class="nav-link text-black link-danger">catact</a></li>
+                            <li class="nav-item"><a href="#" class="MY_BUTTON btn bg_orange px-3 mx-2 mt-2">get started</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class=" mt-3">
+                    <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo_offcanvas">
+                        <i class="bi bi-list font-ACME fw-bold "></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end nav -->
+
+    <!-- start header -->
+    <header class="bg-info">
+        <!-- slider -->
+        <div id="slide" class="carousel slide h-100" data-bs-ride="carousel">
+            <!-- dots slider-->
+            <div class="carousel-indicators pb-3 ">
+                <button type="button" data-bs-target="#slide" data-bs-slide-to="0"
+                    class="data_bs_slide active "></button>
+                <button type="button" data-bs-target="#slide" data-bs-slide-to="1" class="data_bs_slide"></button>
+                <button type="button" data-bs-target="#slide" data-bs-slide-to="2" class="data_bs_slide"></button>
+            </div>
+            <!-- slideshow -->
+            <div class="carousel-inner text-white">
+                <div class="px-4 px-lg-0  carousel-item active slide1">
+                    <div class="container h-100 carousel_inner_items">
+                        <h2 class="fs-1 fw-bold font-Raleway">Welcome to Multi</h2>
+                        <p class="py-4  small">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est
+                            quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea
+                            voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi
+                            architecto.</p>
+                        <button class="btn bg_orange MY_BUTTON px-4 py-2 text-white font-Raleway">Read More</button>
+                    </div>
+                </div>
+                <div class="px-4 px-lg-0 carousel-item slide2">
+                    <div class="container h-100 carousel_inner_items">
+                        <h2 class="fs-1 fw-bold font-Raleway">Lorem Ipsum Dolor</h2>
+                        <p class="py-4 small">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est
+                            quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea
+                            voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi
+                            architecto.</p>
+                        <button class="btn bg_orange MY_BUTTON px-4 py-2 text-white font-Raleway">Read More</button>
+                    </div>
+                </div>
+                <div class="px-4 px-lg-0 carousel-item slide3">
+                    <div class="container h-100 carousel_inner_items">
+                        <h2 class="fs-1 fw-bold font-Raleway">Sequi ea ut et est quaerat</h2>
+                        <p class="py-4 small">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est
+                            quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea
+                            voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi
+                            architecto.</p>
+                        <button class="btn bg_orange MY_BUTTON px-4 py-2 text-white font-Raleway">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- controls slider -->
+            <button class="carousel-control-prev mx-3 mx-lg-0" type="button" data-bs-target="#slide" data-bs-slide="prev">
+                <span class="fs-1 pe-5"><i class="fa-sharp fa-solid fa-chevron-left fa-shake"></i></span>
+            </button>
+            <button class="carousel-control-next mx-3 mx-lg-0" type="button" data-bs-target="#slide" data-bs-slide="next">
+                <span class="fs-1 ps-5"><i class="fa-sharp fa-solid fa-chevron-right fa-shake"></i></span>
+            </button>
+
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start main -->
+    <main>
+        <!-- start About us -->
+        <section class="py-5">
+            <div class="container">
+                <div class=" top_sec ">
+                    <div class="d-flex align-items-center">
+                        <span class="small text-muted fw-normal font-poppins">about</span>
+                        <span class="my_line bg_orange ms-2"></span>
+                    </div>
+                    <div>
+                        <span class="text_navyblue fs-1 font-poppins">About us</span>
+                    </div>
+                </div>
+                <div class="body_sec row  my-2 my-sm-3 my-lg-5">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
+                            </p>
+                            <p>
+                                <i class="fa-sharp fa-solid fa-check-double fa-beat-fade fa-xs pe-2"
+                                    style="color: #ed502e;"></i> Ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.
+                            </p>
+                            <p>
+                                <i class="fa-sharp fa-solid fa-check-double fa-beat-fade fa-xs pe-2"
+                                    style="color: #ed502e;"></i> Duis aute irure dolor in reprehenderit in voluptate
+                                velit.
+                            </p>
+                            <p>
+                                <i class="fa-sharp fa-solid fa-check-double fa-beat-fade fa-xs pe-2"
+                                    style="color: #ed502e;"></i> Ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-6 ">
+                        <div class="d-flex flex-column align-items-start">
+                            <p>
+                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                                est laborum.
+                            </p>
+                            <a href="#" class="MY_BUTTON btn bg_orange px-3 mt-1 mt-sm-2 mt-lg-3">learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="fotter_sec ">
+                    <div class="row pt-4 justify-content-center">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
+                            <div class="items_about bg-white shadow p-4 rounded-3">
+                                <div>
+                                    <i class="fa-solid fa-face-laugh-beam  fs-4 pe-3 text_orange "></i>
+                                    <span class="fs-1 fw-bold text_navyblue ">230</span>
+                                </div>
+                                <div>
+                                    <p class="text-body py-3 font-Raleway text-muted"><b
+                                            class="text-black fs-6 fw-bold">Happy Clients</b> consequuntur quae qui deca
+                                        rode</p>
+                                </div>
+                                <a href="#" class="text-decoration-none text_navyblue font-poppins small">find out more
+                                    <i class="ps-2 fa-solid fa-arrows-turn-right fa-fade"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
+                            <div class="items_about bg-white shadow p-4 rounded-3">
+                                <div>
+                                    <i class="fa-solid fa-sheet-plastic fs-3 pe-3 text_orange "></i>
+                                    <span class="fs-1 fw-bold text_navyblue ">521</span>
+                                </div>
+                                <div>
+                                    <p class="text-body py-3 font-Raleway text-muted"><b
+                                            class="text-black fs-6 fw-bold">Projects </b> adipisci atque cum quia aut
+                                        numquam delectus</p>
+                                </div>
+                                <a href="#" class="text-decoration-none text_navyblue font-poppins small">find out more
+                                    <i class="ps-2 fa-solid fa-arrows-turn-right fa-fade"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
+                            <div class="items_about bg-white shadow p-4 rounded-3">
+                                <div>
+                                    <i class="fa-solid fa-headset fs-3 pe-3 text_orange "></i>
+                                    <span class="fs-1 fw-bold text_navyblue ">1463</span>
+                                </div>
+                                <div>
+                                    <p class="text-muted py-3 font-Raleway"><b class="text-black fs-6 fw-bold"> Hours Of
+                                            Support </b>aut commodi quaerat. Aliquam ratione</p>
+                                </div>
+                                <a href="#" class="text-decoration-none text_navyblue font-poppins small">find out more
+                                    <i class="ps-2 fa-solid fa-arrows-turn-right fa-fade"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
+                            <div class="items_about bg-white shadow p-4 rounded-3">
+                                <div>
+                                    <i class="fa-solid fa-user-group fs-3 pe-3 text_orange "></i>
+                                    <span class="fs-1 fw-bold text_navyblue ">15</span>
+                                </div>
+                                <div>
+                                    <p class="text-body py-3 font-Raleway text-muted"><b
+                                            class="text-black fs-6 fw-bold">Hard Workers</b> rerum asperiores dolor
+                                        molestiae doloribu</p>
+                                </div>
+                                <a href="#" class="text-decoration-none text_navyblue font-poppins small">find out more
+                                    <i class="ps-2 fa-solid fa-arrows-turn-right fa-fade"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end About us -->
+
+        <!-- start video sec -->
+        <section class=" video_sec">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-5 bg_video_sec d-flex justify-content-center align-items-center">
+                        <i class='fas fa-play-circle text_orange fa-beat'
+                            style='font-size:70px;--fa-beat-scale: 1.3;'>
+                        </i>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-7 d-flex justify-content-center align-items-center py-5">
+                        <div class="mx-1 mx-lg-5 text_trasf_none">
+                            <p class="fw-normal fs-3 w-75 font-Raleway text_navyblue mx-1 mx-lg-5">
+                                Eum ipsam laborum deleniti <b class="">velit pariatur architecto</b>
+                            </p>
+                            <p class="text-muted mx-1 mx-lg-5">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                            </p>
+                            <!-- Accordion -->
+                            <div id="accordion" class="mx-1 mx-lg-5">
+                                <div class="card border-0 mb-3">
+                                    <div class="card-header bg-white border-0">
+                                        <a class="btn accordion_hover border-0 " data-bs-toggle="collapse"
+                                            href="#collapse1">
+                                            <span class="text_orange font-poppins pe-2">01</span>
+                                            <span class="fw-bold text_navyblue ">Non consectetur a erat nam at lectus urna duis?</span>
+                                            
+                                        </a>
+                                    </div>
+                                    <div id="collapse1" class="collapse show" data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus
+                                            laoreet non curabitur gravida. Venenatis lectus magna fringilla urna
+                                            porttitor rhoncus dolor purus non.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card border-0 mb-3">
+                                    <div class="card-header bg-white border-0">
+                                        <a class="btn accordion_hover border-0" data-bs-toggle="collapse"
+                                            href="#collapse2">
+                                            <span class="text_orange font-poppins pe-2">02</span>
+                                            <span class="fw-bold text_navyblue "> Feugiat scelerisque varius morbi enim
+                                                nunc?</span>
+                                        </a>
+                                    </div>
+                                    <div id="collapse2" class="collapse " data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
+                                            interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus
+                                            scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper
+                                            dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card border-0 mb-3">
+                                    <div class="card-header bg-white border-0">
+                                        <a class="btn accordion_hover border-0" data-bs-toggle="collapse"
+                                            href="#collapse3">
+                                            <span class="text_orange font-poppins pe-2">03</span>
+                                            <span class="fw-bold text_navyblue "> Dolor sit amet consectetur adipiscing
+                                                elit?</span>
+                                        </a>
+                                    </div>
+                                    <div id="collapse3" class="collapse " data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
+                                            Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet
+                                            nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis
+                                            convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio
+                                            morbi quis
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end video sec -->
+
+        <!-- start services -->
+        <section class="services py-5">
+            <div class="container">
+                <div class=" top_sec">
+                    <div class="d-flex align-items-center">
+                        <span class="small text-muted fw-normal font-poppins">SERVICES</span>
+                        <span class="my_line bg_orange ms-2"></span>
+                    </div>
+                    <div>
+                        <span class="text_navyblue fs-1 font-poppins">CHECK OUR SERVICES</span>
+                    </div>
+
+                </div>
+
+                <div class="pt-4">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                            <div
+                                class="servis_item px-3 py-5 d-flex flex-column justify-content-center align-items-center bg-white rounded-4 ">
+                                <div class="bg_orange rounded-1 mt-3">
+                                    <i class='fab fa-dribbble p-4 text-white fs-4'></i>
+                                </div>
+                                <p class="my-3 text_navyblue fw-bold fs-4 font-Raleway">
+                                    Lorem Ipsum
+                                </p>
+                                <p class="text-muted text-center overflow-hidden" style="height: 50px;width: 90%;">
+                                    Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                            <div
+                                class="servis_item px-3 py-5 d-flex flex-column justify-content-center align-items-center bg-white rounded-4">
+                                <div class="bg_orange rounded-1 mt-3">
+                                    <i class='fa-solid fa-file-lines p-4 text-white fs-4'></i>
+                                </div>
+                                <p class="my-3 text_navyblue fw-bold fs-4 font-Raleway">
+                                    Sed ut perspiciatis
+                                </p>
+                                <p class="text-muted text-center overflow-hidden" style="height: 50px;width: 90%;">
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                            <div
+                                class="servis_item px-3 py-5 d-flex flex-column justify-content-center align-items-center bg-white rounded-4">
+                                <div class="bg_orange rounded-1 mt-3">
+                                    <i class='fab fa-dribbble p-4 text-white fs-4'></i>
+                                </div>
+                                <p class="my-3 text_navyblue fw-bold fs-4 font-Raleway">
+                                    Magni Dolores
+                                </p>
+                                <p class= text-center overflow-hidden" style="height: 50px;width: 90%;">
+                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                </pclass=>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                            <div
+                                class="servis_item px-3 py-5 d-flex flex-column justify-content-center align-items-center bg-white rounded-4">
+                                <div class="bg_orange rounded-1 mt-3">
+                                    <i class='fa-solid fa-earth p-4 text-white fs-4'></i>
+                                </div>
+                                <p class="my-3 text_navyblue fw-bold fs-4 font-Raleway">
+                                    Nemo Enim
+                                </p>
+                                <p class="text-muted text-center overflow-hidden" style="height: 50px;width: 90%;">
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                            <div
+                                class="servis_item px-3 py-5 d-flex flex-column justify-content-center align-items-center bg-white rounded-4">
+                                <div class="bg_orange rounded-1 mt-3">
+                                    <i class='fab fa-dribbble p-4 text-white fs-4'></i>
+                                </div>
+                                <p class="my-3 text_navyblue fw-bold fs-4 font-Raleway">
+                                    Dele cardo
+                                </p>
+                                <p class="text-muted text-center overflow-hidden" style="height: 50px;width: 90%;">
+                                    Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                            <div
+                                class="servis_item px-3 py-5 d-flex flex-column justify-content-center align-items-center bg-white rounded-4">
+                                <div class="servis_icon bg_orange rounded-1 mt-3">
+                                    <i class='fab fa-dribbble p-4 text-white fs-4'></i>
+                                </div>
+                                <p class="my-3 text_navyblue fw-bold fs-4 font-Raleway">
+                                    Divera don
+                                </p>
+                                <p class="text-muted text-center overflow-hidden" style="height: 50px;width: 90%;">
+                                    Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end services -->
+
+        <!-- start testimonial-->
+        <section class="testimonial py-5">
+            <div class="container">
+                <div class=" top_sec">
+                    <div class="d-flex align-items-center">
+                        <span class="small text-muted fw-normal font-poppins">TESTIMONIALS</span>
+                        <span class="my_line bg_orange ms-2"></span>
+                    </div>
+                    <div>
+                        <span class="text_navyblue fs-1 font-poppins">TESTIMONIALS</span>
+                    </div>
+    
+                </div>
+                <!-- Carousel -->
+                <div id="demo" class="carousel slide py-5" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="indicators_testimonail active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="indicators_testimonail "></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="indicators_testimonail "></button>
+                    </div>
+
+                    <!-- The slideshow/carousel -->
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <div class="row justify-content-center">
+                                <div class="col12 col-sm-10  col-lg-6 mb-5 ">
+                                    <div class="bg-white px-4 py-4 position-relative mx-5 rounded-5 ">
+                                        <img src="Img_Projoct_B/testimonials-1.jpg" width="80px" alt="" class="img_testimonial rounded-circle img-thumbnail position-absolute">
+
+                                        <span class="font-ACME fw-bold text_navyblue d-block ps-4">
+                                            john lerson
+                                        </span>
+                                        <span class="font-ACME text-muted d-block small ps-4">
+                                            entrepereneur
+                                        </span>
+                                        <p class="pt-3 fw-semibold fst-italic text_trasf_none ps-4">
+                                            <i class="fa-solid fa-quote-left fs-5 pe-3" style="color: #ed512e47;"> </i>
+                                            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos
+                                            export minim fugiat minim velit minim dolor enim duis veniam ipsum
+                                            anim magna sunt elit fore quem dolore labore illum.
+                                            <i class="fa-solid fa-quote-right fs-5 ps-3" style="color: #ed512e44;"> </i>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col12 col-sm-10  col-lg-6 mb-5 ">
+                                    <div class="bg-white px-4 py-4 position-relative mx-5 rounded-5">
+                                        <img src="Img_Projoct_B/testimonials-6.jpg" width="80px" alt="" class="img_testimonial rounded-circle img-thumbnail position-absolute">
+
+                                        <span class="font-ACME fw-bold text_navyblue d-block ps-4">
+                                            linda lerson
+                                        </span>
+                                        <span class="font-ACME text-muted d-block small ps-4">
+                                            entrepereneur
+                                        </span>
+                                        <p class="pt-3 fw-semibold fst-italic text_trasf_none ps-4">
+                                            <i class="fa-solid fa-quote-left fs-5 pe-3" style="color: #ed512e47;"> </i>
+                                            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos
+                                            export minim fugiat minim velit minim dolor enim duis veniam ipsum
+                                            anim magna sunt elit fore quem dolore labore illum.
+                                            <i class="fa-solid fa-quote-right fs-5 ps-3" style="color: #ed512e44;"> </i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item ">
+                            <div class="row justify-content-center">
+                                <div class="col12 col-sm-10 col-md-9 col-lg-6 mb-5">
+                                    <div class="bg-white px-4 py-4 position-relative mx-5 rounded-5">
+                                        <img src="Img_Projoct_B/testimonials-3.jpg" width="80px" alt="" class="img_testimonial rounded-circle img-thumbnail position-absolute">
+
+                                        <span class="font-ACME fw-bold text_navyblue d-block ps-4">
+                                            mariya lerson
+                                        </span>
+                                        <span class="font-ACME text-muted d-block small ps-4">
+                                            backend
+                                        </span>
+                                        <p class="pt-3 fw-semibold fst-italic text_trasf_none ps-4">
+                                            <i class="fa-solid fa-quote-left fs-5 pe-3" style="color: #ed512e47;"> </i>
+                                            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos
+                                            export minim fugiat minim velit minim dolor enim duis veniam ipsum
+                                            anim magna sunt elit fore quem dolore labore illum.
+                                            <i class="fa-solid fa-quote-right fs-5 ps-3" style="color: #ed512e44;"> </i>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col12 col-sm-10 col-md-9 col-lg-6 mb-5">
+                                    <div class="bg-white px-4 py-4 position-relative mx-5 rounded-5">
+                                        <img src="Img_Projoct_B/testimonials-4.jpg" width="80px" alt="" class="img_testimonial rounded-circle img-thumbnail position-absolute">
+
+                                        <span class="font-ACME fw-bold text_navyblue d-block ps-4">
+                                            amir rezayi
+                                        </span>
+                                        <span class="font-ACME text-muted d-block small ps-4">
+                                            Founder
+                                        </span>
+                                        <p class="pt-3 fw-semibold fst-italic text_trasf_none ps-4">
+                                            <i class="fa-solid fa-quote-left fs-5 pe-3" style="color: #ed512e47;"> </i>
+                                            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos
+                                            export minim fugiat minim velit minim dolor enim duis veniam ipsum
+                                            anim magna sunt elit fore quem dolore labore illum.
+                                            <i class="fa-solid fa-quote-right fs-5 ps-3" style="color: #ed512e44;"> </i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item ">
+                            <div class="row justify-content-center">
+                                <div class="col12 col-sm-10 col-md-9 col-lg-6 mb-5">
+                                    <div class="bg-white px-4 py-4 position-relative mx-5 rounded-5">
+                                        <img src="Img_Projoct_B/testimonials-5.jpg" width="80px" alt="" class="img_testimonial rounded-circle img-thumbnail position-absolute">
+
+                                        <span class="font-ACME fw-bold text_navyblue d-block ps-4">
+                                            john lerson
+                                        </span>
+                                        <span class="font-ACME text-muted d-block small ps-4">
+                                            entrepereneur
+                                        </span>
+                                        <p class="pt-3 fw-semibold fst-italic text_trasf_none ps-4">
+                                            <i class="fa-solid fa-quote-left fs-5 pe-3" style="color: #ed512e47;"> </i>
+                                            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos
+                                            export minim fugiat minim velit minim dolor enim duis veniam ipsum
+                                            anim magna sunt elit fore quem dolore labore illum.
+                                            <i class="fa-solid fa-quote-right fs-5 ps-3" style="color: #ed512e44;"> </i>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col12 col-sm-10 col-md-9 col-lg-6 mb-5">
+                                    <div class="bg-white px-4 py-4 position-relative mx-5 rounded-5">
+                                        <img src="Img_Projoct_B/testimonials-2.jpg" width="80px" alt="" class="img_testimonial rounded-circle img-thumbnail position-absolute">
+
+                                        <span class="font-ACME fw-bold text_navyblue d-block ps-4">
+                                            linda lerson
+                                        </span>
+                                        <span class="font-ACME text-muted d-block small ps-4">
+                                            Founder
+                                        </span>
+                                        <p class="pt-3 fw-semibold fst-italic text_trasf_none ps-4">
+                                            <i class="fa-solid fa-quote-left fs-5 pe-3" style="color: #ed512e47;"> </i>
+                                            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos
+                                            export minim fugiat minim velit minim dolor enim duis veniam ipsum
+                                            anim magna sunt elit fore quem dolore labore illum.
+                                            <i class="fa-solid fa-quote-right fs-5 ps-3" style="color: #ed512e44;"> </i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- end testimonial-->
+
+        <!-- start Call to action -->
+        <section class="call_to_action bg_navyblue py-5 text-white ">
+                    <div class="container">
+                        <div class="d-flex flex-column align-items-center justify-content-center py-4">
+                            <h4 class="font-Raleway fw-bold fs-3">
+                                Call To Action
+                            </h4>
+                            <p class="text-center py-3 text_trasf_none">
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                deserunt
+                                mollit anim id est laborum.
+                            </p>
+                            <button type="button"
+                                class="MY_BUTTON btn bg_navyblue text-white link_orange px-4 mx-2 font-Raleway"
+                                style="border: 1px solid #ed502e;">Call To Action
+                            </button>
+                        </div>
+                    </div>
+        </section>
+        <!-- end Call to action -->
+
+
+        <!-- start portfolio -->
+        <section class="portfolio">
+                    <div class="container">
+                        <div class="py-5">
+                            <div class=" top_sec">
+                                <div class="d-flex align-items-center">
+                                    <span class="small text-muted fw-normal font-poppins">PORTFOLIO</span>
+                                    <span class="my_line bg_orange ms-2"></span>
+                                </div>
+                                <div>
+                                    <span class="text_navyblue fs-1 font-poppins">CHECK OUR PORTFOLIO</span>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-center my-4">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link text_orange fw-bold">all</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link text_navyblue  link_orange">app</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link text_navyblue  link_orange">card</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link text_navyblue  link_orange">web</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="portfolio_items">
+                                <div class="row justify-content-center">
+                                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 mb-4">
+                                        <div class="shadow portfolio_item bg-white rounded-2 w-100 overflow-hidde  position-relative d-flex justify-content-center align-items-center">
+                                            <img src="Img_Projoct_B/portfolio/portfolio-1.jpg" class=" img-fluid" alt="">
+                                            <div class="text-white hover_portfolio_items position-absolute d-flex flex-column justify-content-center align-items-center ">
+                                                <span class="d-block fs-3 font-ACME">App 1</span>
+                                                <span class="d-block font-ACME py-3 fs-5">App</span>
+                                                <i class="fa-solid fa-chevron-left fa-spin position-absolute fw-bold fs-4" style="top: 10%; left: 10%;--fa-animation-duration: 2.5s;"></i>
+                                                <i class="fa-solid fa-chevron-right fa-spin position-absolute fw-bold fs-4" style="top: 83%; left: 85%;--fa-animation-duration: 2.5s;"></i>
+                                                <div class="d-flex">
+                                                    <i class="fa-solid fa-plus me-2 fw-bold fs-5" ></i>
+                                                    <i class="fa-solid fa-link ms-2 fw-bold fs-5 "></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 mb-4">
+                                        <div class="shadow portfolio_item bg-white rounded-2 w-100 overflow-hidde  position-relative d-flex justify-content-center align-items-center">
+                                            <img src="Img_Projoct_B/portfolio/portfolio-2.jpg" class=" img-fluid" alt="">
+                                            <div class="text-white hover_portfolio_items position-absolute d-flex flex-column justify-content-center align-items-center ">
+                                                <span class="d-block fs-3 font-ACME">web 1</span>
+                                                <span class="d-block font-ACME py-3 fs-5">web</span>
+                                                <i class="fa-solid fa-chevron-left fa-spin position-absolute fw-bold fs-4" style="top: 10%; left: 10%;--fa-animation-duration: 2.5s;"></i>
+                                                <i class="fa-solid fa-chevron-right fa-spin position-absolute fw-bold fs-4" style="top: 83%; left: 85%;--fa-animation-duration: 2.5s;"></i>
+                                                <div class="d-flex">
+                                                    <i class="fa-solid fa-plus me-2 fw-bold fs-5" ></i>
+                                                    <i class="fa-solid fa-link ms-2 fw-bold fs-5 "></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 mb-4">
+                                        <div class="shadow portfolio_item bg-white rounded-2 w-100 overflow-hidde  position-relative d-flex justify-content-center align-items-center">
+                                            <img src="Img_Projoct_B/portfolio/portfolio-3.jpg" class=" img-fluid" alt="">
+                                            <div class="text-white hover_portfolio_items position-absolute d-flex flex-column justify-content-center align-items-center ">
+                                                <span class="d-block fs-3 font-ACME">App 2</span>
+                                                <span class="d-block font-ACME py-3 fs-5">App</span>
+                                                <i class="fa-solid fa-chevron-left fa-spin position-absolute fw-bold fs-4" style="top: 10%; left: 10%;--fa-animation-duration: 2.5s;"></i>
+                                                <i class="fa-solid fa-chevron-right fa-spin position-absolute fw-bold fs-4" style="top: 83%; left: 85%;--fa-animation-duration: 2.5s;"></i>
+                                                <div class="d-flex">
+                                                    <i class="fa-solid fa-plus me-2 fw-bold fs-5" ></i>
+                                                    <i class="fa-solid fa-link ms-2 fw-bold fs-5 "></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 mb-4">
+                                        <div class="shadow portfolio_item bg-white rounded-2 w-100 overflow-hidde  position-relative d-flex justify-content-center align-items-center">
+                                            <img src="Img_Projoct_B/portfolio/portfolio-4.jpg" class=" img-fluid" alt="">
+                                            <div class="text-white hover_portfolio_items position-absolute d-flex flex-column justify-content-center align-items-center ">
+                                                <span class="d-block fs-3 font-ACME">card 2</span>
+                                                <span class="d-block font-ACME py-3 fs-5">card</span>
+                                                <i class="fa-solid fa-chevron-left fa-spin position-absolute fw-bold fs-4" style="top: 10%; left: 10%;--fa-animation-duration: 2.5s;"></i>
+                                                <i class="fa-solid fa-chevron-right fa-spin position-absolute fw-bold fs-4" style="top: 83%; left: 85%;--fa-animation-duration: 2.5s;"></i>
+                                                <div class="d-flex">
+                                                    <i class="fa-solid fa-plus me-2 fw-bold fs-5" ></i>
+                                                    <i class="fa-solid fa-link ms-2 fw-bold fs-5 "></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 mb-4">
+                                        <div class="shadow portfolio_item bg-white rounded-2 w-100 overflow-hidde  position-relative d-flex justify-content-center align-items-center">
+                                            <img src="Img_Projoct_B/portfolio/portfolio-5.jpg" class=" img-fluid" alt="">
+                                            <div class="text-white hover_portfolio_items position-absolute d-flex flex-column justify-content-center align-items-center ">
+                                                <span class="d-block fs-3 font-ACME">web 2</span>
+                                                <span class="d-block font-ACME py-3 fs-5">web</span>
+                                                <i class="fa-solid fa-chevron-left fa-spin position-absolute fw-bold fs-4" style="top: 10%; left: 10%;--fa-animation-duration: 2.5s;"></i>
+                                                <i class="fa-solid fa-chevron-right fa-spin position-absolute fw-bold fs-4" style="top: 83%; left: 85%;--fa-animation-duration: 2.5s;"></i>
+                                                <div class="d-flex">
+                                                    <i class="fa-solid fa-plus me-2 fw-bold fs-5" ></i>
+                                                    <i class="fa-solid fa-link ms-2 fw-bold fs-5 "></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 mb-4">
+                                        <div class="shadow portfolio_item bg-white rounded-2 w-100 overflow-hidde  position-relative d-flex justify-content-center align-items-center">
+                                            <img src="Img_Projoct_B/portfolio/portfolio-6.jpg" class=" img-fluid" alt="">
+                                            <div class="text-white hover_portfolio_items position-absolute d-flex flex-column justify-content-center align-items-center ">
+                                                <span class="d-block fs-3 font-ACME">App 3</span>
+                                                <span class="d-block font-ACME py-3 fs-5">App</span>
+                                                <i class="fa-solid fa-chevron-left fa-spin position-absolute fw-bold fs-4" style="top: 10%; left: 10%;--fa-animation-duration: 2.5s;"></i>
+                                                <i class="fa-solid fa-chevron-right fa-spin position-absolute fw-bold fs-4" style="top: 83%; left: 85%;--fa-animation-duration: 2.5s;"></i>
+                                                <div class="d-flex">
+                                                    <i class="fa-solid fa-plus me-2 fw-bold fs-5" ></i>
+                                                    <i class="fa-solid fa-link ms-2 fw-bold fs-5 "></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 mb-4">
+                                        <div class="shadow portfolio_item bg-white rounded-2 w-100 overflow-hidde  position-relative d-flex justify-content-center align-items-center">
+                                            <img src="Img_Projoct_B/portfolio/portfolio-7.jpg" class=" img-fluid" alt="">
+                                            <div class="text-white hover_portfolio_items position-absolute d-flex flex-column justify-content-center align-items-center ">
+                                                <span class="d-block fs-3 font-ACME">card 1</span>
+                                                <span class="d-block font-ACME py-3 fs-5">card</span>
+                                                <i class="fa-solid fa-chevron-left fa-spin position-absolute fw-bold fs-4" style="top: 10%; left: 10%;--fa-animation-duration: 2.5s;"></i>
+                                                <i class="fa-solid fa-chevron-right fa-spin position-absolute fw-bold fs-4" style="top: 83%; left: 85%;--fa-animation-duration: 2.5s;"></i>
+                                                <div class="d-flex">
+                                                    <i class="fa-solid fa-plus me-2 fw-bold fs-5" ></i>
+                                                    <i class="fa-solid fa-link ms-2 fw-bold fs-5 "></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 mb-4">
+                                        <div class="shadow portfolio_item bg-white rounded-2 w-100 overflow-hidde  position-relative d-flex justify-content-center align-items-center">
+                                            <img src="Img_Projoct_B/portfolio/portfolio-8.jpg" class=" img-fluid" alt="">
+                                            <div class="text-white hover_portfolio_items position-absolute d-flex flex-column justify-content-center align-items-center ">
+                                                <span class="d-block fs-3 font-ACME">card 3</span>
+                                                <span class="d-block font-ACME py-3 fs-5">card</span>
+                                                <i class="fa-solid fa-chevron-left fa-spin position-absolute fw-bold fs-4" style="top: 10%; left: 10%;--fa-animation-duration: 2.5s;"></i>
+                                                <i class="fa-solid fa-chevron-right fa-spin position-absolute fw-bold fs-4" style="top: 83%; left: 85%;--fa-animation-duration: 2.5s;"></i>
+                                                <div class="d-flex">
+                                                    <i class="fa-solid fa-plus me-2 fw-bold fs-5" ></i>
+                                                    <i class="fa-solid fa-link ms-2 fw-bold fs-5 "></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 mb-4">
+                                        <div class="shadow portfolio_item bg-white rounded-2 w-100 overflow-hidde  position-relative d-flex justify-content-center align-items-center">
+                                            <img src="Img_Projoct_B/portfolio/portfolio-9.jpg" class=" img-fluid" alt="">
+                                            <div class="text-white hover_portfolio_items position-absolute d-flex flex-column justify-content-center align-items-center ">
+                                                <span class="d-block fs-3 font-ACME">web 3</span>
+                                                <span class="d-block font-ACME py-3 fs-5">web</span>
+                                                <i class="fa-solid fa-chevron-left fa-spin position-absolute fw-bold fs-4" style="top: 10%; left: 10%;--fa-animation-duration: 2.5s;"></i>
+                                                <i class="fa-solid fa-chevron-right fa-spin position-absolute fw-bold fs-4" style="top: 83%; left: 85%;--fa-animation-duration: 2.5s;"></i>
+                                                <div class="d-flex">
+                                                    <i class="fa-solid fa-plus me-2 fw-bold fs-5" ></i>
+                                                    <i class="fa-solid fa-link ms-2 fw-bold fs-5 "></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+        </section>
+        <!-- end portfolio -->
+
+        <!-- start team -->
+        <section id="team" class="team py-5">
+            <div class="container" >
+                <div class=" top_sec">
+                    <div class="d-flex align-items-center">
+                        <span class="small text-muted fw-normal font-poppins ">TEAM</span>
+                        <span class="my_line bg_orange ms-2"></span>
+                    </div>
+                    <div>
+                        <span class="text_navyblue fs-1 font-poppins">CHECK OUR TEAM</span>
+                    </div>
+                </div>
+
+                <div class="row mt-1 gy-4 pb-3 justify-content-center">
+                    <div class="col-10 col-sm-6 col-md-6 col-lg-3 mb-2" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member text-center overflow-hidden rounded-3 bg-white ">
+                            <div class="member-img overflow-hidden position-relative">
+                                <img src="Img_Projoct_B/team/team-1.jpg" class="img-fluid" alt="">
+                                <div class="social position-absolute rounded-4 small">
+                                    <a href="" class="rounded-circle small"><i class="bi bi-twitter fs-6"></i></a>
+                                    <a href="" class="rounded-circle small"><i class='fab fa-facebook-f fs-6'></i></a>
+                                    <a href="" class="rounded-circle small"><i class="bi bi-instagram fs-6 "></i></a>
+                                    <a href="" class="rounded-circle small"><i class='fab fa-linkedin-in fs-6'></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info px-2 py-3">
+                                <h4 class="fw-bold fs-4 text_navyblue font-Raleway">Walter White</h4>
+                                <span class="text-muted d-block small mb-3">Chief Executive Officer</span>
+                                <p class="font-ACME small fw-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis nesciunt tempore, repudiandae sint ea asperiores vitae. At saepe excepturi magnam culpa nisi accusamus, eum commodi possimus id fugiat nobis tempora?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 col-sm-6 col-md-6 col-lg-3 mb-2" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member text-center overflow-hidden rounded-3 bg-white">
+                            <div class="member-img overflow-hidden position-relative">
+                                <img src="Img_Projoct_B/team/team-2.jpg" class="img-fluid" alt="">
+                                <div class="social position-absolute rounded-4 small">
+                                    <a href="" class="rounded-circle small"><i class="bi bi-twitter fs-6"></i></a>
+                                    <a href="" class="rounded-circle small"><i class='fab fa-facebook-f fs-6'></i></a>
+                                    <a href="" class="rounded-circle small"><i class="bi bi-instagram fs-6 "></i></a>
+                                    <a href="" class="rounded-circle small"><i class='fab fa-linkedin-in fs-6'></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info px-2 py-3">
+                                <h4 class="fw-bold fs-4 text_navyblue font-Raleway">Sarah Jhinson</h4>
+                                <span class="text-muted d-block small mb-3">Marketing</span>
+                                <p class="font-ACME small fw-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis nesciunt tempore, repudiandae sint ea asperiores vitae. At saepe excepturi magnam culpa nisi accusamus, eum commodi possimus id fugiat nobis tempora?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 col-sm-6 col-md-6 col-lg-3 mb-2" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member text-center overflow-hidden rounded-3 bg-white">
+                            <div class="member-img overflow-hidden position-relative">
+                                <img src="Img_Projoct_B/team/team-4.jpg" class="img-fluid" alt="">
+                                <div class="social position-absolute rounded-4 small">
+                                    <a href="" class="rounded-circle small"><i class="bi bi-twitter fs-6"></i></a>
+                                    <a href="" class="rounded-circle small"><i class='fab fa-facebook-f fs-6'></i></a>
+                                    <a href="" class="rounded-circle small"><i class="bi bi-instagram fs-6 "></i></a>
+                                    <a href="" class="rounded-circle small"><i class='fab fa-linkedin-in fs-6'></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info px-2 py-3">
+                                <h4 class="fw-bold fs-4 text_navyblue font-Raleway">Amanda Jepson</h4>
+                                <span class="text-muted d-block small mb-3">Accountant</span>
+                                <p class="font-ACME small fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quo magnam, iure nesciunt, expedita optio accusamus vel nostrum quibusdam dolore quia. Voluptates blanditiis id ullam soluta! Consequatur dicta nulla saepe.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 col-sm-6 col-md-6 col-lg-3 mb-2" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member text-center overflow-hidden rounded-3 bg-white">
+                            <div class="member-img overflow-hidden position-relative">
+                                <img src="Img_Projoct_B/team/team-3.jpg" class="img-fluid" alt="">
+                                <div class="social position-absolute rounded-4 small">
+                                    <a href="" class="rounded-circle small"><i class="bi bi-twitter fs-6"></i></a>
+                                    <a href="" class="rounded-circle small"><i class='fab fa-facebook-f fs-6'></i></a>
+                                    <a href="" class="rounded-circle small"><i class="bi bi-instagram fs-6 "></i></a>
+                                    <a href="" class="rounded-circle small"><i class='fab fa-linkedin-in fs-6'></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info px-2 py-3">
+                                <h4 class="fw-bold fs-4 text_navyblue font-Raleway">WilliamAnderson</h4>
+                                <span class="text-muted d-block small mb-3">CTO</span>
+                                <p class="font-ACME small fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quo magnam, iure nesciunt, expedita optio accusamus vel nostrum quibusdam dolore quia. Voluptates blanditiis id ullam soluta! Consequatur dicta nulla saepe.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end team -->
+
+
+        <!-- start PRICING -->
+        <section class="pricing py-5">
+            <div class="container">
+                <div class=" top_sec pb-4">
+                    <div class="d-flex align-items-center">
+                        <span class="small text-muted fw-normal font-poppins ">PRICING</span>
+                        <span class="my_line bg_orange ms-2"></span>
+                    </div>
+                    <div>
+                        <span class="text_navyblue fs-1 font-poppins">OUR COMPETING PRICES</span>
+                    </div>
+                </div>
+
+                <div class="row mt-5 align-items-center justify-content-center">
+                    <div class="col-11 col-sm-10 col-md-7 col-lg-4 mb-3">
+                        <div class="pricing_items bg-white p-5 rounded">
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                <span class="font-Raleway fs-3 fw-normal pt-4">Free</span>
+                                <span class="font-poppins fs-1 fw-bold text_navyblue pt-2">$0</span>
+                                <span class="text-muted font-ACME fw-normal fs-5">per month</span>
+                            </div>
+
+                            <div class="py-3 d-flex justify-content-center align-items-center">
+                                <ul class="list-unstyled">
+                                    <li class="font-Raleway text_trasf_none" style="color: #999;"><i class="bi bi-check-lg pe-1 text_orange fw-bolder "></i> Quam adipiscing vitae proin</li>
+                                    <li class="font-Raleway text_trasf_none py-2" style="color: #999;"><i class="bi bi-check-lg pe-1 text_orange fw-bolder "></i> Nec feugiat nisl pretium</li>
+                                    <li class="font-Raleway text_trasf_none" style="color: #999;"><i class="bi bi-check-lg pe-1 text_orange fw-bolder "></i> Nulla at volutpat diam uteera</li>
+                                    <!-- * -->
+                                    <li class="font-Raleway text_trasf_none py-2" style="color: #c0c0c0;"><i class="bi bi-x pe-1 fw-bolder "></i> <del>Pharetra massa massa ultricies</del></li>
+                                    <li class="font-Raleway text_trasf_none" style="color: #c0c0c0;"><i class="bi bi-x pe-1 fw-bolder "></i> <del>Massa ultricies mi quis hendrerit</del></li>
+                                </ul>
+                                
+                            </div>
+
+                            <div class="d-flex justify-content-center pb-4">
+                                <button type="button" class="btn_pricing btn bg-white text_navyblue px-4 mx-2 font-Raleway fw-semibold">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-11 col-sm-10 col-md-7 col-lg-4 mb-3">
+                        <div class="pricing_items bg-white p-5 rounded" style="border: 3px solid #ed502e;">
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                <span class="font-Raleway fs-3 fw-normal pt-5">Business</span>
+                                <span class="font-poppins fs-1 fw-bold text_navyblue pt-2">$29</span>
+                                <span class="text-muted font-ACME fw-normal fs-5">per month</span>
+                            </div>
+
+                            <div class="py-3 d-flex justify-content-center align-items-center">
+                                <ul class="list-unstyled">
+                                    <li class="font-Raleway text_trasf_none" style="color: #999;"><i class="bi bi-check-lg pe-1 text_orange fw-bolder "></i> Quam adipiscing vitae proin</li>
+                                    <li class="font-Raleway text_trasf_none py-2" style="color: #999;"><i class="bi bi-check-lg pe-1 text_orange fw-bolder "></i> Nec feugiat nisl pretium</li>
+                                    <li class="font-Raleway text_trasf_none" style="color: #999;"><i class="bi bi-check-lg pe-1 text_orange fw-bolder "></i> Nulla at volutpat diam uteera</li>
+                                    <li class="font-Raleway text_trasf_none py-2" style="color: #999;"><i class="bi bi-check-lg pe-1 text_orange fw-bolder "></i>  Pharetra massa massa ultricies</li>
+                                    <li class="font-Raleway text_trasf_none" style="color: #999;"><i class="bi bi-check-lg pe-1 text_orange fw-bolder "></i> Massa ultricies mi quis hendrerit</li>
+                                </ul>
+                                
+                            </div>
+
+                            <div class="col12 mt-4 d-flex justify-content-center">
+                                <button type="button" class="btn  bg_orange MY_BUTTON py-2 px-4 rounded-pill ">Send Message</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-11 col-sm-10 col-md-7 col-lg-4 mb-3">
+                        <div class="pricing_items bg-white p-5 rounded">
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                <span class="font-Raleway fs-3 fw-normal pt-4">Free</span>
+                                <span class="font-poppins fs-1 fw-bold text_navyblue pt-2">$0</span>
+                                <span class="text-muted font-ACME fw-normal fs-5">per month</span>
+                            </div>
+
+                            <div class="py-3 d-flex justify-content-center align-items-center">
+                                <ul class="list-unstyled">
+                                    <li class="font-Raleway text_trasf_none" style="color: #999;"><i class="bi bi-check-lg pe-1 text_orange fw-bolder "></i> Quam adipiscing vitae proin</li>
+                                    <li class="font-Raleway text_trasf_none py-2" style="color: #999;"><i class="bi bi-check-lg pe-1 text_orange fw-bolder "></i> Nec feugiat nisl pretium</li>
+                                    <li class="font-Raleway text_trasf_none" style="color: #999;"><i class="bi bi-check-lg pe-1 text_orange fw-bolder "></i> Nulla at volutpat diam uteera</li>
+                                    <li class="font-Raleway text_trasf_none py-2" style="color: #999;"><i class="bi bi-check-lg pe-1 text_orange fw-bolder "></i>  Pharetra massa massa ultricies</li>
+                                    <li class="font-Raleway text_trasf_none" style="color: #999;"><i class="bi bi-check-lg pe-1 text_orange fw-bolder "></i> Massa ultricies mi quis hendrerit</li>
+                                </ul>
+                                
+                            </div>
+
+                            <div class="d-flex justify-content-center pb-4">
+                                <button type="button" class="btn_pricing btn bg-white text_navyblue px-4 mx-2 font-Raleway fw-semibold">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end PRICING -->
+
+
+        <!-- start F.A.Q -->
+        <section class="py-5">
+            <div class="container">
+                <div class=" top_sec">
+                    <div class="d-flex align-items-center">
+                        <span class="small text-muted fw-normal font-poppins ">F.A.Q</span>
+                        <span class="my_line bg_orange ms-2"></span>
+                    </div>
+                    <div>
+                        <span class="text_navyblue fs-1 font-poppins">FREQUENTLY ASKED QUESTIONS</span>
+                    </div>
+                </div>
+                <div class="f_a_q_sec_bottom mt-2">
+
+                    <div class="row py-5 border-bottom justify-content-center">
+                        <div class="col-11 col-sm-9 col-md-5 col-lg-5">
+                            <div class="d-flex">
+                                <i class="bi bi-question-circle pe-2" style="color: #669ee5;font-size: 20px;"></i>
+                                <p class="font-Raleway fw-bold text-center text-md-start"style="font-size:17px">Non consectetur a erat nam at lectus urna duis?</p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-10 col-md-6 col-lg-7">
+                            <div>
+                                <p class="font-ACME text-center text-md-start" style="font-size:14px">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row py-5 border-bottom justify-content-center">
+                        <div class="col-11 col-sm-9 col-md-5 col-lg-5">
+                            <div class="d-flex">
+                                <i class="bi bi-question-circle  pe-2 " style="color: #669ee5;font-size: 20px;"></i>
+                                <p class="font-Raleway fw-bold text-center text-md-start"style="font-size:17px">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-10 col-md-6 col-lg-7">
+                            <div>
+                                <p class="font-ACME text-center text-md-start" style="font-size:14px">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row py-5 border-bottom justify-content-center">
+                        <div class="col-11 col-sm-9 col-md-5 col-lg-5">
+                            <div class="d-flex">
+                                <i class="bi bi-question-circle pe-2" style="color: #669ee5;font-size: 20px;"></i>
+                                <p class="font-Raleway fw-bold text-center text-md-start"style="font-size:17px">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?</p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-10 col-md-6 col-lg-7">
+                            <div>
+                                <p class="font-ACME text-center text-md-start" style="font-size:14px">
+                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row py-5 border-bottom justify-content-center">
+                        <div class="col-11 col-sm-9 col-md-5 col-lg-5">
+                            <div class="d-flex">
+                                <i class="bi bi-question-circle pe-2" style="color: #669ee5;font-size: 20px;"></i>
+                                <p class="font-Raleway fw-bold text-center text-md-start"style="font-size:17px">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-10 col-md-6 col-lg-7">
+                            <div>
+                                <p class="font-ACME text-center text-md-start" style="font-size:14px">
+                                    Aperiam itaque sit optio et deleniti eos nihil quidem cumque. Voluptas dolorum accusantium sunt sit enim. Provident consequuntur quam aut reiciendis qui rerum dolorem sit odio. Repellat assumenda soluta sunt pariatur error doloribus fuga.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row py-5 border-bottom justify-content-center">
+                        <div class="col-11 col-sm-9 col-md-5 col-lg-5">
+                            <div class="d-flex">
+                                <i class="bi bi-question-circle pe-2" style="color: #669ee5;font-size: 20px;"></i>
+                                <p class="font-Raleway fw-bold text-center text-md-start"style="font-size:17px">Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-10 col-md-6 col-lg-7">
+                            <div>
+                                <p class="font-ACME text-center text-md-start" style="font-size:14px">Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end F.A.Q -->
+
+
+        <!-- start CONTACT -->
+        <section class="py-5 contact">
+            <div class="container">
+                <div class=" top_sec">
+                    <div class="d-flex align-items-center">
+                        <span class="small text-muted fw-normal font-poppins ">CONTACT</span>
+                        <span class="my_line bg_orange ms-2"></span>
+                    </div>
+                    <div>
+                        <span class="text_navyblue fs-1 font-poppins">CONTACT US</span>
+                    </div>
+                </div>
+                
+                <div class="contact_box mt-2">
+                    <div class="row justify-content-center">
+                        <div class="col-11 col-sm-10 col-lg-4 px-0  bg_orange shadow d-flex flex-column justify-content-center contact_top_box">
+                            <div class="p-3">
+                                <div class="item_contact p-3 p-lg-4 rounded d-flex align-items-center mb-3">
+                                    <i class="bi bi-geo-alt flex-shrink-0 fw-bold text-white fs-5 rounded-circle d-flex justify-content-center align-items-center me-3"></i>
+                                    <div class="info_contact  d-flex flex-column">
+                                        <h4 class="my-0 font-Raleway fs-4 fw-bold">Location:</h4>
+                                        <p class="my-0 small font-ACME">A108 Adam Street, New York, NY 535022</p>
+                                    </div>
+                                </div>
+
+                                <div class="item_contact p-3 p-lg-4 rounded d-flex align-items-center mb-3">
+                                    <i class="bi bi-envelope flex-shrink-0 text-white fs-5 rounded-circle d-flex justify-content-center align-items-center me-3"></i>
+                                    <div class="info_contact  d-flex flex-column">
+                                        <h4 class="my-0 font-Raleway fs-4 fw-bold">Email:</h4>
+                                        <p class="my-0 small font-ACME">info@example.com</p>
+                                    </div>
+                                </div>
+
+                                <div class="item_contact p-3 p-lg-4 rounded d-flex align-items-center mb-3">
+                                    <i class="bi bi-phone flex-shrink-0 text-white fs-5 rounded-circle d-flex justify-content-center align-items-center me-3"></i>
+                                    <div class="info_contact  d-flex flex-column">
+                                        <h4 class="my-0 font-Raleway fs-4 fw-bold">Call:</h4>
+                                        <p class="my-0 small font-ACME">+1 5589 55488 55</p>
+                                    </div>
+                                </div>
+
+                                <div class="item_contact p-3 p-lg-4 rounded d-flex align-items-center ">
+                                    <i class="bi bi-clock flex-shrink-0 text-white fs-5 rounded-circle d-flex justify-content-center align-items-center me-3"></i>
+                                    <div class="info_contact  d-flex flex-column">
+                                        <h4 class="my-0 font-Raleway fs-4 fw-bold">Open Hours:</h4>
+                                        <p class="my-0 small font-ACME">Mon-Sat: 11AM - 23PM</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-11 col-sm-10 col-lg-8 px-0  bg-white shadow contact_bottom_box">
+                            <form class="h-100">
+                                <div class="row justify-content-center">
+                                    <div class="col-6">
+                                        <div class="form_item">
+                                            <input type="text" placeholder="Your Name" class="form-control rounded-0">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-6">
+                                        <div class="form_item">
+                                            <input type="email" placeholder="Your Email" class="form-control rounded-0">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 mt-4">
+                                        <div class="form_item">
+                                            <input type="text" placeholder="Your Subject" class="form-control rounded-0">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 mt-4">
+                                        <div class="form_item">
+                                            <textarea  rows="6" placeholder="Message" class="form-control"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="col12 mt-4 d-flex justify-content-center">
+                                        <button type="button" class="btn  bg_orange MY_BUTTON py-2 px-4 rounded-pill ">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end CONTACT -->
+
+        
+    </main>
+    <!-- end main -->
+
+    <!-- start footer -->
+    <footer class="py-5">
+        <div class="container pt-3 text-white">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-10 col-md-6 col-lg-4 mb-4">
+                    <div class="footer_multi_box py-4 px-3 text-white text-center">
+                        <h3 class="font-Raleway fw-normal mb-0">Multi</h3>
+                        <p class="font-ACME py-4 mb-0 sm"><em>Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.</em></p>
+                        <address class="small font-Raleway mb-0">
+                            A108 Adam Street <br> NY 535022, USA
+                        </address>
+
+                        <div class="my-4">
+                            <p class="mb-0 font-Raleway fw-normal"><b class="">Phone:</b> +1 5589 55488 55</p>
+                            <p class="font-Raleway fw-normal mb-0"><b class="">Email:</b> info@example.com</p>
+                        </div>
+
+                        <ul class="icon_footer nav justify-content-center">
+                            <li class="nav-item mx-1"><a href="#" class="bi bi-twitter nav-link d-flex justify-content-center align-items-center text-white rounded-2"></a></li>
+                            <li class="nav-item mx-1"><a href="#" class="fab fa-facebook-f nav-link d-flex justify-content-center align-items-center text-white rounded-2"></a></li>
+                            <li class="nav-item mx-1"><a href="#" class="bi bi-instagram nav-link d-flex justify-content-center align-items-center text-white rounded-2"></a></li>
+                            <li class="nav-item mx-1"><a href="#" class="fab fa-linkedin-in nav-link d-flex justify-content-center align-items-center text-white rounded-2"></a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-6 col-sm-5 col-md-6 col-lg-2 mb-3">
+                    <div>
+                        <h5 class="font-Raleway fw-bold pb-2">Useful Links</h5>
+                        <ul class="list-unstyled">
+                            <li class="font-ACME pb-3 small"><a href="#" class="text-decoration-none text-white fw-normal link_orange d-flex" ><i class="bi bi-chevron-right text_orange fs-6 me-1 small fw-bold"></i>Home</a></li>
+                            <li class="font-ACME pb-3 small"><a href="#" class="text-decoration-none text-white fw-normal link_orange d-flex" ><i class="bi bi-chevron-right text_orange fs-6 me-1 small fw-bold"></i>About us</a></li>
+                            <li class="font-ACME pb-3 small"><a href="#" class="text-decoration-none text-white fw-normal link_orange d-flex" ><i class="bi bi-chevron-right text_orange fs-6 me-1 small fw-bold"></i>Services</a></li>
+                            <li class="font-ACME pb-3 small"><a href="#" class="text-decoration-none text-white fw-normal link_orange d-flex" ><i class="bi bi-chevron-right text_orange fs-6 me-1 small fw-bold"></i>Terms of service</a></li>
+                            <li class="font-ACME pb-3 small"><a href="#" class="text-decoration-none text-white fw-normal link_orange d-flex" ><i class="bi bi-chevron-right text_orange fs-6 me-1 small fw-bold"></i>Privacy policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-6 col-sm-5 col-md-6 col-lg-2 mb-3">
+                    <div>
+                        <h5 class="font-Raleway fw-bold pb-2">Our Services</h5>
+                        <ul class="list-unstyled">
+                            <li class="font-ACME pb-3 small"><a href="#" class="text-decoration-none text-white fw-normal link_orange d-flex" ><i class="bi bi-chevron-right text_orange fs-6 me-1 small fw-bold"></i>Web Design</a></li>
+                            <li class="font-ACME pb-3 small"><a href="#" class="text-decoration-none text-white fw-normal link_orange d-flex" ><i class="bi bi-chevron-right text_orange fs-6 me-1 small fw-bold"></i>Web Development</a></li>
+                            <li class="font-ACME pb-3 small"><a href="#" class="text-decoration-none text-white fw-normal link_orange d-flex" ><i class="bi bi-chevron-right text_orange fs-6 me-1 small fw-bold"></i>Product Management</a></li>
+                            <li class="font-ACME pb-3 small"><a href="#" class="text-decoration-none text-white fw-normal link_orange d-flex" ><i class="bi bi-chevron-right text_orange fs-6 me-1 small fw-bold"></i>Marketing</a></li>
+                            <li class="font-ACME pb-3 small"><a href="#" class="text-decoration-none text-white fw-normal link_orange d-flex" ><i class="bi bi-chevron-right text_orange fs-6 me-1 small fw-bold"></i>Graphic Design</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-10 col-md-6 col-lg-4 mb-3">
+                    <div>
+                        <h5 class="font-Raleway fw-bold pb-2">Our Newsletter</h5>
+                        <p class="font-ACME small pb-2">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+
+                        <div class="input-group border-0">
+                            <input type="text" class="form-control box_shadow_none">
+                            <span class="input-group-text text-white bg_orange">Subscribe</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col12">
+                    <div class="footer_bottom pt-5 small">
+                        <p class="mb-1">© Copyright <strong class="font-ACME fs-6">Multi</strong>. All Rights Reserved</p>
+                        <span>Designed by</span>
+                        <span class="text_orange font-ACME fs-6">BootstrapMade</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+</body>
+
+
+</html>

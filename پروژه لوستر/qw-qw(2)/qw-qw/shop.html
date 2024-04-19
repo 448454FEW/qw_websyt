@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="icon" href="imgs/FavIcon/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imgs/FavIcon/android-chrome-192x192.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imgs/FavIcon/apple-touch-icon.png" type="image/x-icon">
+
+    <!-- Bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Css Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <title>Shop</title>
+
+    <style>
+        .product img {
+            width: 100%;
+            height: auto;
+            box-sizing: border-box;
+            object-fit: cover;
+        }
+
+        .active>.page-link,
+        .page-link.active {
+            background-color: black;
+            border: 1px solid black;
+        }
+
+        .page-item:nth-child(n):hover .page-link {
+            background-color: #ff9800;
+            border: 1px solid black;
+            color: white;
+        }
+
+        .pagination a {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <!-- Navigation -->
+    <div class="banner"><a href="#" class="banner">%20 تخفیف </a></div>
+    <nav class="navbar navbar-expand-lg py-3 fixed-top ">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">
+                <img src="imgs/Logo.webp" alt="Logo icon" class="logo-img">
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span><i id="bar" class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse navbar-nav" id="navbarSupportedContent">
+                <ul class="navbar-nav me-3 mt-3 mb-2 mb-lg-0 gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">صفحه اصلی</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="shop.html">محصولات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">بلاگ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about us.html">درباره ما</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact us.php">ارتباط با ما</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="" id="secondary_">
+                <ul class=" me-3 mt-3 mb-2 mb-lg-0 d-flex align-items-center justify-content-center ">
+                    <li class="nav-item m-2">
+                        <a href="/cart.html"><i class="fa-solid fa-bag-shopping px-3"></i></a>
+                    </li>
+                    <li class="nav-item m-2 ps-2">
+                        <img src="imgs/dark theme icon/moon.png" id="toggle-icon" alt="dark mode toggle">
+                    </li>
+                    <li class="nav-item m-2 ">
+                        <a href="sabtnam.php">
+                            <button class="btn sign-in">ثبت نام / ورود</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Feature Section -->
+    <div class="container text-center mt-5 py-5">
+        <h2>محصولات</h2>
+        <hr class="mx-auto">
+        <p>در اینجا می توانید محصولات جدید ما را با قیمت منصفانه در رویال لوستر بررسی کنید</p>
+    </div>
+    <!-- Shop Container -->
+    <div class="row mx-auto container" id="product-container"></div>
+
+    <!-- Footer -->
+    <footer class="mt-5 py-5">
+        <div class="row container mx-auto pt-5 text-center">
+            <div class="footer-one col-lg-4 col-md-4 col-12">
+                <a href="/index.html"><img src="imgs/Logo.webp" alt="Logo icon" class="w-25"></a>
+                <p class="pt-3">سبک خود را روشن کنید : طیف متنوعی از لوسترها را در رویال لوستر کاوش کنید.
+                    از کلاسیک های کریستالی بی انتها گرفته تا مارول های مدرن، بیانیه نورپردازی عالی را برای فضای خود
+                    بیابید
+                </p>
+            </div>
+            <div class="footer-one col-lg-4 col-md-4 col-12 mb-3" id="footer-features">
+                <h5 class="pb-2 mt-5">محصولات</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">لوستر کریستالی</a></li>
+                    <li><a href="#">لوستر مولوکولی</a></li>
+                    <li><a href="#">لوستر فلزی</a></li>
+                    <li><a href="#">لوستر برنزی</a></li>
+                    <li><a href="#">لوستر بلوری</a></li>
+                    <li><a href="#">لوستر چوبی</a></li>
+                </ul>
+            </div>
+            <div class="footer-one col-lg-4 col-md-4 col-12 mb-3">
+                <h5 class="pb-2 mt-5">درباره</h5>
+                <div>
+                    <h6>آدرس</h6>
+                    <p>تهران,خیابان امیر کبیر, کوچه 13</p>
+                </div>
+                <div>
+                    <h6>تلفن</h6>
+                    <p>021-3456789</p>
+                </div>
+                <div>
+                    <h6>ایمیل</h6>
+                    <p>LosterRoyal@email.com</p>
+                </div>
+            </div>
+        </div>
+        <!-- Copy Right -->
+        <div class="copyright mt-5">
+            <div class="row container mx-auto">
+                <div class="col-lg-3 col-md-2 col-12 text-center">
+                    <img src="imgs/enamad.png" alt="enamad">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 text-nowrap text-center">
+                    <p dir="ltr" class="mt-5">&copy; 2023 Royal Loster. All rights reserved.</p>
+                </div>
+                <div class="col-lg-3 col-md-4 col-12 pt-5 text-center">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script>
+        // Fetch product data from JSON file
+        fetch('products.json')
+            .then(response => response.json())
+            .then(products => {
+                // Populate the product container with data
+                const productContainer = document.getElementById('product-container');
+
+                products.forEach(product => {
+                    const productCard = document.createElement('div');
+                    productCard.className = 'product card text-center col-lg-3 col-md-4 col-12';
+
+                    productCard.innerHTML = `
+                        <img class="img-fluid mb-3 card-img-top"  src="${product.image}" onclick="redirectToProductPage('${product.id}')"  alt="${product.name}">
+                        <h5 class="p-name card-body">${product.name}</h5>
+                        <h4 class="p-price card-text">${product.price}</h4>
+                        <button class="buy-btn btn-primary" onclick="redirectToProductPage('${product.id}')">خرید</button>
+                        `;
+
+                    productContainer.appendChild(productCard);
+                });
+            })
+            .catch(error => console.error('Error:', error));
+
+        // Redirect to product page with the selected product ID
+        function redirectToProductPage(productId) {
+            window.location.href = `productp.html?id=${productId}`;
+        }
+    </script>
+</body>

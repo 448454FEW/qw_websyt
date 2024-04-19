@@ -1,0 +1,102 @@
+[
+    {
+        "id": "1",
+        "name": "لوستر 8 شعله چشمه نور کد MO4412/50",
+        "image": "imgs/Products/Chandelier with 8 flames, Chashme Noor, code MO441250.webp",
+        "price": "3,200,000 تومان",
+        "description": " تابلو نقاشی انتریور کد ART2023/75 با طراحی مدرن و جذاب مناسب برای تزیین دیوارهای اتاق های مدرن و کلاسیک. این تابلو از جنس مواد با کیفیت ساخته شده است و دارای رنگ‌های زیبا و جلب‌کننده است.",
+        "details": {
+            "weight": "14900 کیلو گرم",
+            "material": "فلزی",
+            "dimensions": "65*65*92 سانتی متر",
+            "illumination_area": "25 متر",
+            "coating": "بکاری طلایی حاشیه دور استاتیک مشکی"
+        },
+        "smallImages": [
+            "imgs/Products/Chandelier with 10 flames, Chashme Noor, code C21255+5-A.webp",
+            "imgs/Products/Chandelier with 10 flames, Chashme Noor, code C21255+5-A.webp",
+            "imgs/Products/Chandelier with 12 flames, Chashme Noor, code MO440450.webp",
+            "imgs/Products/Chandelier with 12 lights, Chashme Noor, code S37046-GBK.webp"
+        ]
+    },
+    {
+        "id": "2",
+        "name": "لوستر 10 شعله چشمه نور کد C21255+5-A",
+        "image": "imgs/Products/Chandelier with 10 flames, Chashme Noor, code C21255+5-A.webp",
+        "price": "3,200,000 تومان",
+        "description": "توضیحات محصول 2",
+        "details": {
+            "weight": "وزن محصول 2",
+            "material": "جنس بدنه 2",
+            "dimensions": "ابعاد محصول 2",
+            "illumination_area": "متراژ نوردهی محصول 2",
+            "coating": "پوشش محصول 2"
+        },
+        "smallImages": [
+            "imgs/Products/Chandelier with 10 flames, Chashme Noor, code C21255+5-A.webp",
+            "imgs/Products/Chandelier with 10 flames, Chashme Noor, code C21255+5-A.webp",
+            "imgs/Products/Chandelier with 12 flames, Chashme Noor, code MO440450.webp",
+            "imgs/Products/Chandelier with 12 lights, Chashme Noor, code S37046-GBK.webp"
+        ]
+    },
+    {
+        "id": "3",
+        "name": "لوستر 12 شعله چشمه نور کد MO440450",
+        "image": "imgs/Products/Chandelier with 12 flames, Chashme Noor, code MO440450.webp",
+        "price": "3,200,000 تومان",
+        "description": "توضیحات محصول 3",
+        "details": {
+            "weight": "وزن محصول 3",
+            "material": "جنس بدنه 3",
+            "dimensions": "ابعاد محصول 3",
+            "illumination_area": "متراژ نوردهی محصول 3",
+            "coating": "پوشش محصول 3"
+        },
+        "smallImages": [
+            "imgs/Products/Chandelier with 10 flames, Chashme Noor, code C21255+5-A.webp",
+            "imgs/Products/Chandelier with 10 flames, Chashme Noor, code C21255+5-A.webp",
+            "imgs/Products/Chandelier with 12 flames, Chashme Noor, code MO440450.webp",
+            "imgs/Products/Chandelier with 12 lights, Chashme Noor, code S37046-GBK.webp"
+        ]
+    },
+    {
+        "id": "4",
+        "name": "لوستر 12 شعله چشمه نور کد MO",
+        "image": "imgs/Products/Chandelier with 12 lights, Chashme Noor, code MO.webp",
+        "price": "3,200,000 تومان",
+        "description": "توضیحات محصول 4",
+        "details": {
+            "weight": "وزن محصول 4",
+            "material": "جنس بدنه 4",
+            "dimensions": "ابعاد محصول 4",
+            "illumination_area": "متراژ نوردهی محصول 4",
+            "coating": "پوشش محصول 4"
+        },
+        "smallImages": [
+            "imgs/Products/Chandelier with 10 flames, Chashme Noor, code C21255+5-A.webp",
+            "imgs/Products/Chandelier with 10 flames, Chashme Noor, code C21255+5-A.webp",
+            "imgs/Products/Chandelier with 12 flames, Chashme Noor, code MO440450.webp",
+            "imgs/Products/Chandelier with 12 lights, Chashme Noor, code S37046-GBK.webp"
+        ]
+    },
+    {
+        "id": "5",
+        "name": "لوستر 12 شعله چشمه نور کد S37046-GBK",
+        "image": "imgs/Products/Chandelier with 12 lights, Chashme Noor, code S37046-GBK.webp",
+        "price": "3,200,000 تومان",
+        "description": "توضیحات محصول 5",
+        "details": {
+            "weight": "وزن محصول 5",
+            "material": "جنس بدنه 5",
+            "dimensions": "ابعاد محصول 5",
+            "illumination_area": "متراژ نوردهی محصول 5",
+            "coating": "پوشش محصول 5"
+        },
+        "smallImages": [
+            "imgs/Products/Chandelier with 10 flames, Chashme Noor, code C21255+5-A.webp",
+            "imgs/Products/Chandelier with 10 flames, Chashme Noor, code C21255+5-A.webp",
+            "imgs/Products/Chandelier with 12 flames, Chashme Noor, code MO440450.webp",
+            "imgs/Products/Chandelier with 12 lights, Chashme Noor, code S37046-GBK.webp"
+        ]
+    }
+]
