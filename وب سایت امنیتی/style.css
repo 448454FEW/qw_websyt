@@ -1,0 +1,115 @@
+input  {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px
+}
+
+#aye,
+input[type=file] {
+    background-color: #000
+}
+
+#h2 {
+    text-align: center;
+    margin-top: 30%;
+    color: #3e1cba;
+}
+
+
+#profil {
+    background-color: rgba(240, 248, 255, .985);
+    border: 1px solid #ba1c1c;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+#axs {
+    width: 200px;
+    height: 50px;
+
+    color: #ffcd00;
+}
+
+#aye {
+
+    cursor: pointer;
+    padding: 5px;
+    color: #fff
+}
+
+#refresh {
+    position: absolute;  
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #fff;
+    background-color: #000;
+}
+
+#pedar {
+    display: flex
+}
+
+#timer {
+    top: 0;
+    color: #000;
+    background-color: #289a6b75
+}
+
+#h1,
+#profil {
+    color: #000;
+    margin-left: 20%
+}
+
+#main,
+#pedar {
+    justify-content: center;
+    align-items: center
+}
+
+.dis_block {
+    display: block
+}
+
+.loding {
+    position: fixed;
+    background-color: #0ff;
+    z-index: 9999999999999999999;
+    display: flex;
+    color: rgba(44, 167, 167, .463);
+    align-items: center;
+    justify-content: center;
+    transition: 0.5 s
+}
+
+.loded.loding {
+    opacity: 0;
+    visibility: hidden
+}
+
+.container {
+    width: 99.5%;
+    height: 95.3vh;
+    background: linear-gradient(to right, #289a6a 0, #289a6a 30%, #ffcd00 30%, #ffcd00 70%, #ef3340 70%, #ef3340 100%);
+    background-size: 120px 100%;
+    background-repeat: repeat
+}
+
+.container,
+.loding {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+#refresh:hover{
+    transition: 3s;
+    background-color: #64e43d;
+}
